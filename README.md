@@ -1,2 +1,3 @@
-# ca-playground
+# CA PLAYGROUND
+
 Cellular Automata Playground
