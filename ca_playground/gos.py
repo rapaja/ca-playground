@@ -26,3 +26,8 @@ def game_of_schools(grid):
                     new_grid[i - 1, j - 1] = 1
 
     return new_grid
+
+
+def deki_rule_1(grid):
+    padded_grid = np.pad(grid, pad_width=1, mode="constant", constant_values=0)
+    new_grid = np.zeros(grid.shape, dtype=int)
